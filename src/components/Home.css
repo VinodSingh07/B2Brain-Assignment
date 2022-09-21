@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    margin: 20px 0;
+    width: 100vh;
+    position: fixed;
+    
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+}
+.logo img {
+    padding-right: 20px;
+}
+.dashboard {
+   height: 100vh;
+}
+.home, .intels, .leads, .accounts, .preferences, .integration, .team, .help{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+
+}
+img {
+    margin-right: 30px;
+}
+.header {
+    display: flex;
+    position: fixed;
+    /* left: 300px; */
+
+}
+input {
+    width: 70vw;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    opacity: 50%;
+    padding:10px;
+}
+.section  {
+    position: relative;
+    left:300px;
+}
